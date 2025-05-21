@@ -12,4 +12,6 @@ def calcula_desconto(nome_produto, preco, porcentagem):
     return result
 
 if __name__ == "__main__":
+    
+    print(calcula_desconto("Camiseta", 50, 20))
     print(calcula_desconto("Iphone 15", 6000, 10))
